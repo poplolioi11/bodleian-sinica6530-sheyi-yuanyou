@@ -1,0 +1,25 @@
+{
+  "dataset_id": "bodleian-sinica6530",
+  "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/665a097d-513a-4bf2-bdbf-af3bae5346fe.json",
+  "manifest_sha256": "10f46191d6f9c3650258f9788496a57497490a77c51074e84fa695fd57dfa5bf",
+  "retrieved_date": "2026-11-02",
+  "image_scope": "Official unique recto; actual JPEG 3336×4000, distinct from manifest 4767×5715. No verso is inferred.",
+  "images_redistributed": false,
+  "canvases": [
+    {
+      "page_id": "f01",
+      "index": 1,
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d990d35e-2575-49c6-b53f-75d2bd3c26d0.json",
+      "official_label": "recto",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d990d35e-2575-49c6-b53f-75d2bd3c26d0/full/full/0/default.jpg",
+      "image_sha256": "cdedffe2ee00477f4490eab71ea3f84be73cb030e590b88a8475910cd5c1346c",
+      "width": 3336,
+      "height": 4000,
+      "manifest_width": 4767,
+      "manifest_height": 5715,
+      "required_layers": [
+        "original-print"
+      ]
+    }
+  ]
+}

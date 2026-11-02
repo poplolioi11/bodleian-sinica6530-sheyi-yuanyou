@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zh-Hant">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>設醫原由（Bodleian Sinica6530，[1880年代?]）：AI初錄資料集</title>
+        <author role="historical-author-attribution">歷史原作者未知；不由現代整理者、館藏機構或推定出版地補出作者。</author>
+        <respStmt>
+          <resp>資料整理與編碼</resp>
+          <name ref="https://orcid.org/0009-0003-9738-6914">Chu, Chen-Yu</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>0.1.0</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Chen-Yu Chu</publisher>
+        <idno type="dataset-id">bodleian-sinica6530</idno>
+        <idno type="DOI">10.5281/zenodo.23881962</idno>
+        <availability>
+          <p>古籍原文不新增限制；具著作權的自有說明與編排採CC BY 4.0。來源影像未收入本包，另依館方條款。</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>設醫原由（Bodleian Sinica6530，[1880年代?]）：AI初錄資料集</title>
+          <author>歷史原作者未知；不由現代整理者、館藏機構或推定出版地補出作者。</author>
+          <idno type="shelfmark">Bodleian Libraries, Sinica 6530</idno>
+          <note type="edition">館藏目錄疑定年代[1880年代?]、刊地[漢口?]；確切刊年、出版者與歷史原作者未知。數位紀錄建立年不是刊年。</note>
+          <ref target="https://digital.bodleian.ox.ac.uk/objects/665a097d-513a-4bf2-bdbf-af3bae5346fe/">館方底本</ref>
+          <ref target="https://iiif.bodleian.ox.ac.uk/iiif/manifest/665a097d-513a-4bf2-bdbf-af3bae5346fe.json">館方IIIF manifest</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p>品質狀態：{"accuracy_measured": false, "expert_review": "not-performed", "human_double_collation": "not-performed", "independent_reading_applied": false, "native_actual_model": null, "peer_review": "not-performed", "physical_condition": {"assessment": "AI operational overview, not conservator assessment", "denominator": 1, "severe_faces": 0, "source_scope": "official unique recto only", "unassessed_faces": 0}, "status": "AI-initial-transcription-unreviewed"}。格式驗證不提高讀字覆核程度。本TEI未編碼完整校勘app。</p>
+          <p n="declared-methods">{"approved_page_notes": {"f01": ["主欄 01 對應 f01-u004；盤點 block=f01-column-01。", "主欄 02 對應 f01-u005；盤點 block=f01-column-02。", "主欄 03 對應 f01-u006；盤點 block=f01-column-03。", "主欄 04 對應 f01-u007；盤點 block=f01-column-04。", "主欄 05 對應 f01-u008；盤點 block=f01-column-05。", "主欄 06 對應 f01-u009；盤點 block=f01-column-06。", "主欄 07 對應 f01-u010；盤點 block=f01-column-07。", "主欄 08 對應 f01-u011；盤點 block=f01-column-08。", "主欄 09 對應 f01-u012；盤點 block=f01-column-09。", "主欄 10 對應 f01-u013；盤點 block=f01-column-10。", "小註 f01-u014 附於 f01-u013，在原文字串「如此、」之後，0 起 Unicode 碼點插入位置=3；原圖小字兩列由右至左為「見約翰福音」及「三章十六節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 11 對應 f01-u015；盤點 block=f01-column-11。", "主欄 12 對應 f01-u016；盤點 block=f01-column-12。", "主欄 13 對應 f01-u017；盤點 block=f01-column-13。", "小註 f01-u018 附於 f01-u017，在原文字串「曰、上帝國近爾矣、」之後，0 起 Unicode 碼點插入位置=9；原圖小字兩列由右至左為「見路加福音」及「十章九節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 14 對應 f01-u019；盤點 block=f01-column-14。", "主欄 15 對應 f01-u020；盤點 block=f01-column-15。", "主欄 16 對應 f01-u021；盤點 block=f01-column-16。", "主欄 17 對應 f01-u022；盤點 block=f01-column-17。", "主欄 18 對應 f01-u023；盤點 block=f01-column-18。", "主欄 19 對應 f01-u024；盤點 block=f01-column-19。", "主欄 20 對應 f01-u025；盤點 block=f01-column-20。", "主欄 21 對應 f01-u026；盤點 block=f01-column-21。", "主欄 22 對應 f01-u027；盤點 block=f01-column-22。", "主欄 23 對應 f01-u028；盤點 block=f01-column-23。", "主欄 24 對應 f01-u029；盤點 block=f01-column-24。", "小註 f01-u030 附於 f01-u029，在原文字串「我必賜爾平安、」之後，0 起 Unicode 碼點插入位置=7；原圖小字兩列由右至左為「見馬太福音十」及「一章二十八節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 25 對應 f01-u031；盤點 block=f01-column-25。", "主欄 26 對應 f01-u032；盤點 block=f01-column-26。", "小註 f01-u033 附於 f01-u032，在原文字串「悔改耳、」之後，0 起 Unicode 碼點插入位置=4；原圖小字兩列由右至左為「見馬可福音」及「二章十七節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 27 對應 f01-u034；盤點 block=f01-column-27。", "小註 f01-u035 附於 f01-u034，在原文字串「人、且捨己命為衆贖也、」之後，0 起 Unicode 碼點插入位置=11；原圖小字兩列由右至左為「見馬太福音二」及「十章二十八節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 28 對應 f01-u036；盤點 block=f01-column-28。", "主欄 29 對應 f01-u037；盤點 block=f01-column-29。", "主欄 30 對應 f01-u038；盤點 block=f01-column-30。"]}, "approved_unit_coordinates": {"f01-u001": null, "f01-u002": null, "f01-u003": null, "f01-u004": null, "f01-u005": null, "f01-u006": null, "f01-u007": null, "f01-u008": null, "f01-u009": null, "f01-u010": null, "f01-u011": null, "f01-u012": null, "f01-u013": null, "f01-u014": null, "f01-u015": null, "f01-u016": null, "f01-u017": null, "f01-u018": null, "f01-u019": null, "f01-u020": null, "f01-u021": null, "f01-u022": null, "f01-u023": null, "f01-u024": null, "f01-u025": null, "f01-u026": null, "f01-u027": null, "f01-u028": null, "f01-u029": null, "f01-u030": null, "f01-u031": null, "f01-u032": null, "f01-u033": null, "f01-u034": null, "f01-u035": null, "f01-u036": null, "f01-u037": null, "f01-u038": null}, "bibliography": {"catalog_direct_read_status": "not-read; official manifest link only", "date_catalog": "[1880年代?]", "date_note": "館目年代與刊地均疑定，未核確切刊年，不以數位紀錄2016建立年補刊年。", "historical_author": null, "observed_title": "設醫原由", "place_catalog": "[漢口?]", "publication_year": null, "publisher": null, "responsibility_note": "原印作者/出版者未從本次原圖確定；不從館目分類或同類材料補作者。"}, "context": "一張完整可取得正面，包含原印題、插圖中文字、正文及小字註；後加鉛筆字/館印/攝影尺規描述排除。 單張32×26公分；官方manifest提供唯一recto，背面未提供亦未判空白。", "detailed_methods_public": false, "fixed_metadata": {"created_at": "2026-11-02T10:04:04.327582+00:00", "dataset_id": "bodleian-sinica6530", "notes": ["已處理一張全幅母圖的全部 original-print 文字區，未處理項為空；這是 AI 初錄，並非人工二校或文字正確性保證。", "原刻各處可見的短彎點句讀以 U+3001「、」轉寫；未增現代句號、引號或為文意補標點。", "保留所見字形「卽」「衆」「躭」「週」「愈」「需」；未作簡繁轉換或 Unicode 正規化。", "圖中兩旁框內是示意線紋／圖案，未辨為文字；圖形線條不謄錄。", "全幅 original 請求被工具顯示為 2908×3488（母圖 3336×4000）；後續細節均從母圖直接裁出，未重採樣。", "source-reading records 為原生工具讀圖的當時自述紀錄，無可用 provider guard audit，不宣稱已由獨立工具證明盲讀。", "僅接觸所授權 source-only 工作包、原圖、盤點模板與契約；來源路徑可見館目題名，未接觸另一初稿、OCR 或外部既有文字。", "小註所附主欄、文中字串anchor與位置已保留於公開頁面註記；完整版面盤點及細節修正紀錄另留私有，不作讀字正確性保證。"], "source_version": "bodleian-full-request3336x4000-6530-v1", "stage": "initial"}, "image_to_text_full_reproduction_provided": false, "page_metadata": [{"height": 4000, "layout_note": "先讀上方橫題（右至左），再記圖左上縱題及圖中橫匾（右至左）；下方原印大字共 30 欄，各欄由上至下、全區右至左。五組雙列小註分成獨立 unit，各註右列先、左列後，文中位置記於 notes。底本文字與原刻句讀保留；後加鉛筆、館印與尺規不混入 original-print。", "layout_reviewed": true, "notes": ["主欄 01 對應 f01-u004；盤點 block=f01-column-01。", "主欄 02 對應 f01-u005；盤點 block=f01-column-02。", "主欄 03 對應 f01-u006；盤點 block=f01-column-03。", "主欄 04 對應 f01-u007；盤點 block=f01-column-04。", "主欄 05 對應 f01-u008；盤點 block=f01-column-05。", "主欄 06 對應 f01-u009；盤點 block=f01-column-06。", "主欄 07 對應 f01-u010；盤點 block=f01-column-07。", "主欄 08 對應 f01-u011；盤點 block=f01-column-08。", "主欄 09 對應 f01-u012；盤點 block=f01-column-09。", "主欄 10 對應 f01-u013；盤點 block=f01-column-10。", "小註 f01-u014 附於 f01-u013，在原文字串「如此、」之後，0 起 Unicode 碼點插入位置=3；原圖小字兩列由右至左為「見約翰福音」及「三章十六節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 11 對應 f01-u015；盤點 block=f01-column-11。", "主欄 12 對應 f01-u016；盤點 block=f01-column-12。", "主欄 13 對應 f01-u017；盤點 block=f01-column-13。", "小註 f01-u018 附於 f01-u017，在原文字串「曰、上帝國近爾矣、」之後，0 起 Unicode 碼點插入位置=9；原圖小字兩列由右至左為「見路加福音」及「十章九節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 14 對應 f01-u019；盤點 block=f01-column-14。", "主欄 15 對應 f01-u020；盤點 block=f01-column-15。", "主欄 16 對應 f01-u021；盤點 block=f01-column-16。", "主欄 17 對應 f01-u022；盤點 block=f01-column-17。", "主欄 18 對應 f01-u023；盤點 block=f01-column-18。", "主欄 19 對應 f01-u024；盤點 block=f01-column-19。", "主欄 20 對應 f01-u025；盤點 block=f01-column-20。", "主欄 21 對應 f01-u026；盤點 block=f01-column-21。", "主欄 22 對應 f01-u027；盤點 block=f01-column-22。", "主欄 23 對應 f01-u028；盤點 block=f01-column-23。", "主欄 24 對應 f01-u029；盤點 block=f01-column-24。", "小註 f01-u030 附於 f01-u029，在原文字串「我必賜爾平安、」之後，0 起 Unicode 碼點插入位置=7；原圖小字兩列由右至左為「見馬太福音十」及「一章二十八節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 25 對應 f01-u031；盤點 block=f01-column-25。", "主欄 26 對應 f01-u032；盤點 block=f01-column-26。", "小註 f01-u033 附於 f01-u032，在原文字串「悔改耳、」之後，0 起 Unicode 碼點插入位置=4；原圖小字兩列由右至左為「見馬可福音」及「二章十七節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 27 對應 f01-u034；盤點 block=f01-column-27。", "小註 f01-u035 附於 f01-u034，在原文字串「人、且捨己命為衆贖也、」之後，0 起 Unicode 碼點插入位置=11；原圖小字兩列由右至左為「見馬太福音二」及「十章二十八節」。unit 依附屬主欄之後編排，實際文中位置以此 anchor 為準。", "主欄 28 對應 f01-u036；盤點 block=f01-column-28。", "主欄 29 對應 f01-u037；盤點 block=f01-column-29。", "主欄 30 對應 f01-u038；盤點 block=f01-column-30。"], "page_id": "f01", "physical_page_id": "p01", "source_sha256": "cdedffe2ee00477f4490eab71ea3f84be73cb030e590b88a8475910cd5c1346c", "width": 3336}], "policies": {"diagram-text": "病房圖內兩組原印文字各以diagram-label獨立，來源全幅/區域可定位；圖形線條只描述不謄錄，不重建幾何。兩旁圖案未辨為文字的判斷是初錄觀察，不作專家認定。", "double-line-notes": "五組雙列小字出處註各獨立small-note單位，兩列先右後左；unit排在所附主欄後，實際文中附著位置以page.notes所載主欄unit、字串anchor與0起碼點位置保留。", "excluded-paratext": "納入原印橫題、圖內文字、30正文欄與5小字註；紙邊後加館號/鉛筆字、館印和攝影尺規只描述排除，不充原印正文。官方未提供背面，不推斷空白或原書缺頁。", "gaiji-ivs": "可編碼字保留既有Unicode序列；非BMP/IVS不拆改，若原字形無法編碼需連影像定位並標未解，不猜通行替字。本次沒有另造gaiji或逐字框。", "gaps": "原件缺損、影像不足、已看未解、未處理及編碼未完分開；未知字數保持unknown，不自動以一個□當一字。本次固定初錄pending_pages及unresolved_source_regions皆空，不據此作準確率聲明。", "misprints": "原刻可能訛字保留在忠實層；不由文意、記憶經文、通行本或現代詞形改字。校訂建議另版另記，不覆寫初錄。", "punctuation": "原圖所見短彎點句讀以U+3001、轉寫，本初錄97個；這是明示的符號轉寫，不加現代句號/引號，不按文意補點。TXT導航換行與標籤不是原刻標點。", "reading-order": "唯一recto：上方橫題右至左，圖內左上縱題與中間橫匾分單位，再下部30大字欄右至左、欄內上至下；5小註以附屬主欄後獨立單位及page.notes anchors表文中位置。共38單位的array/order固定。", "repetition-marks": "所見重文符號須保留原符號，展開只另層；本次未另作重文專項盤點，不默展開、不宣稱經專項證明完全沒有。", "uncertain": "疑讀須以unit與0起Unicode半開位置、暫讀、候選及理由定位；初錄未明列疑讀，不表示零錯誤。後續來源覆核可新增疑讀。", "variants": "固定初錄所見原字、異體及罕字逐碼點保留，含卽、衆、躭、週、愈、需；不簡繁、Unicode正規化或全域換字。此為初錄讀法，未套獨立稿，不保證字形編碼已定。"}, "purpose": "供醫療史、慈善與傳教醫院宗旨、中文傳單及圖文版式的檢索定位與後續校訂；全程僅歷史文獻數位化，不涉及生物研究或現代療法分析。", "transcription_policy_version": "6530-fixed-initial-preservation-v3", "uncertainty_explicit_start": []}</p>
+        </interpretation>
+        <normalization>
+          <p>保留固定JSON內每unit的精確字串及順序，不做Unicode正規化或默加句讀。字形、點號與空間處理以declared-methods及公開文字政策為準。疑字座標以Unicode碼點0起半開區間表示，詳uncertainties.json。</p>
+          <p n="position-convention">f01是官方唯一recto，p01如有是現代物理面ID；疑讀採Unicode碼點0起半開[start,end)。unit順序即原order；unit.bbox=null，實測單位框如有則在methods.approved_unit_coordinates，座標參照3336×4000，並非逐字框。</p>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="3336" lry="4000" xml:id="surface-f01">
+      <desc>recto</desc>
+      <graphic url="https://iiif.bodleian.ox.ac.uk/iiif/image/d990d35e-2575-49c6-b53f-75d2bd3c26d0/full/full/0/default.jpg" width="3336px" height="4000px"/>
+      <note type="source-image-sha256">SHA-256:cdedffe2ee00477f4490eab71ea3f84be73cb030e590b88a8475910cd5c1346c</note>
+      <note type="official-canvas">https://iiif.bodleian.ox.ac.uk/iiif/canvas/d990d35e-2575-49c6-b53f-75d2bd3c26d0.json</note>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="source-image" n="recto" facs="#surface-f01" xml:id="f01">
+        <note type="layout">先讀上方橫題（右至左），再記圖左上縱題及圖中橫匾（右至左）；下方原印大字共 30 欄，各欄由上至下、全區右至左。五組雙列小註分成獨立 unit，各註右列先、左列後，文中位置記於 notes。底本文字與原刻句讀保留；後加鉛筆、館印與尺規不混入 original-print。</note>
+        <note type="layout-reviewed">true</note>
+        <note type="layer-states">{"original-print": "AI-initial-transcription-unreviewed"}</note>
+        <ab type="title" n="recto" facs="#surface-f01" xml:id="f01-u001">設醫原由</ab>
+        <ab type="diagram-label" n="recto" facs="#surface-f01" xml:id="f01-u002">病房</ab>
+        <ab type="diagram-label" n="recto" facs="#surface-f01" xml:id="f01-u003">榮歸上帝</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u004">耶穌聖教、傳於各國、用多方法、顯揚聖道、或開</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u005">講堂、或設學堂、或立書院、醫院、無一不有益於</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u006">人、惟立醫院、乃救人之身、人身受病無論老幼</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u007">富貴貧賤皆所難免、有病在身、必多憂愁、俗云、</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u008">好人只怕病來磨一人有病、父母妻子、日夜躭</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u009">心、至親好友、亦為掛慮、如有人能治之、最為欣</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u010">慰之事、醫病、乃體上帝愛人之心、上帝愛人無</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u011">論男女大小、無一不愛、聖經云、上帝以獨生子</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u012">賜世、使凡信之者、不至滅亡而得永生、其愛世</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u013">如此、上帝獨生子、卽救主耶穌、耶穌</ab>
+        <ab type="small-note" n="recto" facs="#surface-f01" xml:id="f01-u014">見約翰福音三章十六節</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u015">在世、週遊四方、傳道醫病、所行之事、皆載在福</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u016">音書上、耶穌告門徒曰、凡有病者醫之、且告衆</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u017">曰、上帝國近爾矣、醫院設立、非為積</ab>
+        <ab type="small-note" n="recto" facs="#surface-f01" xml:id="f01-u018">見路加福音十章九節</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u019">德累功、乃順耶穌之命、現出上帝之大恩大愛、</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u020">醫院工夫、不外救人、人有肉身、亦有靈魂、救肉</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u021">身、不救靈魂、不為完備、肉身可重、靈魂更可重、</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u022">人身有病、醫之多次、雖得痊愈、終久不免朽敗、</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u023">惟靈魂永存、或在天堂享永福、或在地獄受永</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u024">苦、肉身之病、人能醫治、靈魂之病、惟耶穌能醫</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u025">治、故耶穌稱為至大醫生、人魂之病、罪也、耶穌</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u026">死在十字架上、救人脫離衆罪、此乃莫大之愛</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u027">也、醫院就診者、多不知耶穌之愛、乃因未聽福</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u028">音至寶之訓、耶穌云、凡勞苦負重者、當來就我、</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u029">我必賜爾平安、又云、康強者不需</ab>
+        <ab type="small-note" n="recto" facs="#surface-f01" xml:id="f01-u030">見馬太福音十一章二十八節</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u031">醫士、惟患病者需之、我來、非招義人、乃招罪人</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u032">悔改耳、又云、我來、非以役人、乃役於</ab>
+        <ab type="small-note" n="recto" facs="#surface-f01" xml:id="f01-u033">見馬可福音二章十七節</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u034">人、且捨己命為衆贖也、中外有多</ab>
+        <ab type="small-note" n="recto" facs="#surface-f01" xml:id="f01-u035">見馬太福音二十章二十八節</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u036">人靠主耶穌、蒙恩赦罪、已得平安、因而願將自</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u037">己所得之恩、推及於衆、使世人皆能得救、而歸</ab>
+        <ab type="body-column" n="recto" facs="#surface-f01" xml:id="f01-u038">榮於上帝也、</ab>
+      </div>
+    </body>
+  </text>
+</TEI>
