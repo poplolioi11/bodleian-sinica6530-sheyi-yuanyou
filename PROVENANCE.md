@@ -22,4 +22,8 @@ source-pages.json記來源URL、canvas、SHA-256、實際與manifest尺寸。來
 
 本版 DOI 已預留；本包建立時尚未確認正式發布或公開登記。
 
-預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23881962
+固定初錄v0.1.0： https://doi.org/10.5281/zenodo.23881962 。本版另存修訂，不覆寫初錄檔案、tag或DOI。
+
+同一位獨立讀者分兩階段參與：先僅依來源影像進行source-only讀字並封存，兩稿固定後再看差異、非盲回圖裁定；不是第三個盲讀群體。全量比對與原圖質詢紀錄不等於工具已認證盲讀獨立性，也不是人類全文二校。
+
+預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23882484

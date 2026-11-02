@@ -1,0 +1,171 @@
+{
+  "dataset_id": "bodleian-sinica6530",
+  "from_version": "0.1.0",
+  "to_version": "0.2.0",
+  "source_image_sha256": "cdedffe2ee00477f4490eab71ea3f84be73cb030e590b88a8475910cd5c1346c",
+  "initial_doi": "10.5281/zenodo.23881962",
+  "changes": [
+    {
+      "unit_id": "f01-u006",
+      "kind": "source-visible-punctuation",
+      "before": "",
+      "after": "、",
+      "initial_span": [
+        17,
+        17
+      ],
+      "result_span": [
+        17,
+        18
+      ],
+      "initial_text": "人、惟立醫院、乃救人之身、人身受病無論老幼",
+      "final_text": "人、惟立醫院、乃救人之身、人身受病、無論老幼",
+      "reason": "病右下與無字上方的欄間可見一枚獨立短彎點，與疒及丙的字畫分離。 依原圖與相鄰字筆分離的點號採用；不依句意、稿次或多數決。",
+      "source_bbox": [
+        2551,
+        2580,
+        2651,
+        3610
+      ],
+      "precision": "approximate region in actual3336x4000 pixels; not glyph-exact"
+    },
+    {
+      "unit_id": "f01-u007",
+      "kind": "source-visible-punctuation",
+      "before": "",
+      "after": "、",
+      "initial_span": [
+        4,
+        4
+      ],
+      "result_span": [
+        4,
+        5
+      ],
+      "initial_text": "富貴貧賤皆所難免、有病在身、必多憂愁、俗云、",
+      "final_text": "富貴貧賤、皆所難免、有病在身、必多憂愁、俗云、",
+      "reason": "賤右下可見獨立短彎點，落在字框外，並非右旁戔的末筆。 依原圖與相鄰字筆分離的點號採用；不依句意、稿次或多數決。",
+      "source_bbox": [
+        2472,
+        2580,
+        2572,
+        3610
+      ],
+      "precision": "approximate region in actual3336x4000 pixels; not glyph-exact"
+    },
+    {
+      "unit_id": "f01-u008",
+      "kind": "source-visible-punctuation",
+      "before": "",
+      "after": "、",
+      "initial_span": [
+        7,
+        7
+      ],
+      "result_span": [
+        7,
+        8
+      ],
+      "initial_text": "好人只怕病來磨一人有病、父母妻子、日夜躭",
+      "final_text": "好人只怕病來磨、一人有病、父母妻子、日夜躭",
+      "reason": "磨字右下、一字右上方可見獨立彎點；與石部口框有留白。 依原圖與相鄰字筆分離的點號採用；不依句意、稿次或多數決。",
+      "source_bbox": [
+        2393,
+        2580,
+        2493,
+        3610
+      ],
+      "precision": "approximate region in actual3336x4000 pixels; not glyph-exact"
+    },
+    {
+      "unit_id": "f01-u010",
+      "kind": "source-visible-punctuation",
+      "before": "",
+      "after": "、",
+      "initial_span": [
+        20,
+        20
+      ],
+      "result_span": [
+        20,
+        21
+      ],
+      "initial_text": "慰之事、醫病、乃體上帝愛人之心、上帝愛人無",
+      "final_text": "慰之事、醫病、乃體上帝愛人之心、上帝愛人、無",
+      "reason": "上帝愛人的人字右下、無字上方有獨立彎點，和人的捺筆之間可見間隔。 依原圖與相鄰字筆分離的點號採用；不依句意、稿次或多數決。",
+      "source_bbox": [
+        2235,
+        2580,
+        2335,
+        3610
+      ],
+      "precision": "approximate region in actual3336x4000 pixels; not glyph-exact"
+    }
+  ],
+  "unresolved": [
+    {
+      "unit_id": "f01-u009",
+      "target": "為",
+      "start": 8,
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。"
+    },
+    {
+      "unit_id": "f01-u009",
+      "target": "為",
+      "start": 20,
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。"
+    },
+    {
+      "unit_id": "f01-u017",
+      "target": "為",
+      "start": 15,
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。"
+    },
+    {
+      "unit_id": "f01-u021",
+      "target": "為",
+      "start": 8,
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。"
+    },
+    {
+      "unit_id": "f01-u025",
+      "target": "為",
+      "start": 6,
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。"
+    },
+    {
+      "unit_id": "f01-u034",
+      "target": "為",
+      "start": 6,
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。"
+    },
+    {
+      "unit_id": "f01-u036",
+      "target": "已",
+      "start": 11,
+      "candidates": [
+        "己"
+      ],
+      "reason": "兩稿同讀已也不作正確證據；保留已暫讀及己候選，待更清晰原件或人工判形。 同頁另有己字可比較，但字體及墨面差異不足以在本處確定起筆高低。"
+    }
+  ],
+  "scope_note": "Four source-visible punctuation insertions only; seven located provisional readings retained. Same independent reader subsequently performed nonblind image adjudication; no third blind group or human double collation."
+}

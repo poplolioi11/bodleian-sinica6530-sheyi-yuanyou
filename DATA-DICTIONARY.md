@@ -10,4 +10,4 @@ uncertainties採unit_id及Unicode碼點0起半開[start,end)，surface等於text
 
 methods.uncertainty_explicit_start記原稿是否明給start，供無損回讀。methods不含source-only、盤點、trace、私有活動或原稿worker；公開投影不是完整私檔bytes。
 
-1幅官方recto、1目標物理面、38個原印文字單位、665個Unicode碼點、0筆定位疑讀、0個□。碼點數不是漢字數，疑讀數不是錯誤率。
+1幅官方recto、1目標物理面、38個原印文字單位、669個Unicode碼點、7筆定位疑讀、0個□。碼點數不是漢字數，疑讀數不是錯誤率。

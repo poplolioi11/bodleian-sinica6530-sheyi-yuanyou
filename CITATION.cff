@@ -2,22 +2,24 @@ cff-version: 1.2.0
 message: Please cite the fixed version and verify quotations against the Bodleian
   image.
 type: dataset
-title: 設醫原由（Bodleian Sinica6530，[1880年代?]）：AI初錄資料集
+title: 設醫原由（Bodleian Sinica6530，[1880年代?]）：獨立AI校讀修訂資料集
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.1.0
+version: 0.2.0
 date-released: '2026-11-02'
 url: https://github.com/poplolioi11/bodleian-sinica6530-sheyi-yuanyou
-abstract: A fixed transcription of 設醫原由, Bodleian Sinica6530, limited to its single
-  available recto, including the original heading, ward-illustration labels, main
-  columns and small source notes. Catalogue date [1880s?] and place [Hankou?] remain
-  uncertain; historical author and exact publication year are unknown. For histories
-  of hospitals, medical charity and missionary printing, without modern medical interpretation
-  or biological research. Initial AI transcription; independent reading is not applied.
-  No human double collation, expert review, peer review or measured accuracy is claimed.
+abstract: Revised fixed transcription of 設醫原由, Bodleian Sinica6530, limited to the
+  single official recto. Four source-visible punctuation marks are inserted and seven
+  provisional glyph readings are retained with candidates. One source-only reading
+  was sealed before comparison; the same reader later performed nonblind image adjudication,
+  not a third blind group. Catalogue date [1880s?], place [Hankou?], exact year and
+  historical author remain uncertain or unknown. Historical-document digitization
+  only. Revised after independent AI reading, complete comparison and source-image
+  adjudication. No human double collation, expert review, peer review or measured
+  accuracy is claimed.
 keywords:
 - 設醫原由
 - Sinica 6530
@@ -32,4 +34,4 @@ keywords:
 - digital humanities
 - Chinese historical texts
 - TEI XML
-doi: 10.5281/zenodo.23881962
+doi: 10.5281/zenodo.23882484

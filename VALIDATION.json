@@ -18,8 +18,8 @@
   "counts": {
     "images": 1,
     "units": 38,
-    "unicode_code_points": 665,
-    "uncertainties": 0
+    "unicode_code_points": 669,
+    "uncertainties": 7
   },
   "schemas": {
     "book": {
@@ -39,12 +39,12 @@
     }
   },
   "input_sha256": {
-    "book": "fc1b3598d9766e397ad29f6d68e246affdc4baf49d34b82db5c2ab2f93928796",
+    "book": "9ee164a6919c4c9bbb9f63d43929b20e84612238a1cf21700d440133dca95b21",
     "sources": "9427ee7735e71628e6a4c8c5ddbf12feec3a139e50096b02a94ce4ab9c40a149"
   },
   "quality": {
-    "status": "AI-initial-transcription-unreviewed",
-    "independent_reading_applied": false,
+    "status": "AI-independent-reading-and-image-adjudication",
+    "independent_reading_applied": true,
     "native_actual_model": null,
     "human_double_collation": "not-performed",
     "expert_review": "not-performed",

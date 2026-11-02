@@ -1,10 +1,10 @@
 {
   "dataset_id": "bodleian-sinica6530",
-  "version": "0.1.0",
-  "title": "設醫原由（Bodleian Sinica6530，[1880年代?]）：AI初錄資料集",
+  "version": "0.2.0",
+  "title": "設醫原由（Bodleian Sinica6530，[1880年代?]）：獨立AI校讀修訂資料集",
   "quality": {
-    "status": "AI-initial-transcription-unreviewed",
-    "independent_reading_applied": false,
+    "status": "AI-independent-reading-and-image-adjudication",
+    "independent_reading_applied": true,
     "native_actual_model": null,
     "human_double_collation": "not-performed",
     "expert_review": "not-performed",
@@ -29,8 +29,8 @@
     "canvases": 1,
     "target_physical_faces": 1,
     "units": 38,
-    "codepoints": 665,
-    "uncertainty_records": 0,
+    "codepoints": 669,
+    "uncertainty_records": 7,
     "square_placeholders": 0,
     "roles": {
       "body-column": 30,
@@ -47,13 +47,13 @@
       "double-line-notes": "五組雙列小字出處註各獨立small-note單位，兩列先右後左；unit排在所附主欄後，實際文中附著位置以page.notes所載主欄unit、字串anchor與0起碼點位置保留。",
       "excluded-paratext": "納入原印橫題、圖內文字、30正文欄與5小字註；紙邊後加館號/鉛筆字、館印和攝影尺規只描述排除，不充原印正文。官方未提供背面，不推斷空白或原書缺頁。",
       "gaiji-ivs": "可編碼字保留既有Unicode序列；非BMP/IVS不拆改，若原字形無法編碼需連影像定位並標未解，不猜通行替字。本次沒有另造gaiji或逐字框。",
-      "gaps": "原件缺損、影像不足、已看未解、未處理及編碼未完分開；未知字數保持unknown，不自動以一個□當一字。本次固定初錄pending_pages及unresolved_source_regions皆空，不據此作準確率聲明。",
+      "gaps": "原件缺損、影像不足、已看未解、未處理及編碼未完分開；未知字數保持unknown，不自動以一個□當一字。本次修訂稿pending_pages及unresolved_source_regions皆空，7項定位疑讀另列，不據此作準確率聲明。",
       "misprints": "原刻可能訛字保留在忠實層；不由文意、記憶經文、通行本或現代詞形改字。校訂建議另版另記，不覆寫初錄。",
-      "punctuation": "原圖所見短彎點句讀以U+3001、轉寫，本初錄97個；這是明示的符號轉寫，不加現代句號/引號，不按文意補點。TXT導航換行與標籤不是原刻標點。",
+      "punctuation": "原圖短彎點以U+3001、轉寫；v0.2.0比初錄補4個圖像可見點號，現101點。不是添加現代句讀；4處都有單位/半開位置及原圖區域，初錄97點版本保留不改。",
       "reading-order": "唯一recto：上方橫題右至左，圖內左上縱題與中間橫匾分單位，再下部30大字欄右至左、欄內上至下；5小註以附屬主欄後獨立單位及page.notes anchors表文中位置。共38單位的array/order固定。",
       "repetition-marks": "所見重文符號須保留原符號，展開只另層；本次未另作重文專項盤點，不默展開、不宣稱經專項證明完全沒有。",
-      "uncertain": "疑讀須以unit與0起Unicode半開位置、暫讀、候選及理由定位；初錄未明列疑讀，不表示零錯誤。後續來源覆核可新增疑讀。",
-      "variants": "固定初錄所見原字、異體及罕字逐碼點保留，含卽、衆、躭、週、愈、需；不簡繁、Unicode正規化或全域換字。此為初錄讀法，未套獨立稿，不保證字形編碼已定。"
+      "uncertain": "獨立讀字與回圖後保留7項已看未解：6個為/爲字碼、1個已/己；主本保存暫讀、0起Unicode位置、候選與理由。不是未處理、缺頁或量測錯誤率。",
+      "variants": "固定修訂稿保留所見原字、異體及罕字，含卽、衆、躭、週、愈、需；不簡繁、Unicode正規化或全域換字。與初錄相比沒有字詞替換，只補4個原圖可見句讀點；6個為/爲與1個已/己保留暫讀和候選，不宣稱字形已完全定讀。"
     },
     "bibliography": {
       "date_catalog": "[1880年代?]",
@@ -66,21 +66,21 @@
       "responsibility_note": "原印作者/出版者未從本次原圖確定；不從館目分類或同類材料補作者。",
       "catalog_direct_read_status": "not-read; official manifest link only"
     },
-    "transcription_policy_version": "6530-fixed-initial-preservation-v3",
+    "transcription_policy_version": "6530-adjudicated-preservation-v5",
     "fixed_metadata": {
       "dataset_id": "bodleian-sinica6530",
-      "stage": "initial",
-      "created_at": "2026-11-02T10:04:04.327582+00:00",
+      "stage": "adjudicated",
+      "created_at": "2026-11-02T10:22:48.422750+00:00",
       "source_version": "bodleian-full-request3336x4000-6530-v1",
       "notes": [
-        "已處理一張全幅母圖的全部 original-print 文字區，未處理項為空；這是 AI 初錄，並非人工二校或文字正確性保證。",
-        "原刻各處可見的短彎點句讀以 U+3001「、」轉寫；未增現代句號、引號或為文意補標點。",
-        "保留所見字形「卽」「衆」「躭」「週」「愈」「需」；未作簡繁轉換或 Unicode 正規化。",
-        "圖中兩旁框內是示意線紋／圖案，未辨為文字；圖形線條不謄錄。",
-        "全幅 original 請求被工具顯示為 2908×3488（母圖 3336×4000）；後續細節均從母圖直接裁出，未重採樣。",
-        "source-reading records 為原生工具讀圖的當時自述紀錄，無可用 provider guard audit，不宣稱已由獨立工具證明盲讀。",
-        "僅接觸所授權 source-only 工作包、原圖、盤點模板與契約；來源路徑可見館目題名，未接觸另一初稿、OCR 或外部既有文字。",
-        "小註所附主欄、文中字串anchor與位置已保留於公開頁面註記；完整版面盤點及細節修正紀錄另留私有，不作讀字正確性保證。"
+        "此為非盲回圖裁定；同一獨立讀者在兩稿封存後讀差異並回圖，不是新增盲讀稿。",
+        "全部38units及30欄可見斜點已逐區回看，14項差異逐項列ledger；只較初稿增加4處有圖像實見支持的原刻斜點，保留另外3處已錄斜點。",
+        "卽按左旁下部匕形筆畫保留；衆、躭、週、愈、需依本處部件保存。六處為／爲與一處已／己仍未解，保留初稿暫讀及候選，不強行統一。",
+        "圖字兩組及小註五組皆回圖，小註右列先左列後，附主欄的位置見page.notes及ledger。",
+        "原刻斜點以U+3001轉寫，不增現代句讀；未按經文、詞頻、兩稿一致或讀稿先後補改。",
+        "本輪只處理f01，沒有未處理區域；7項已看未解保留，不造未知字數。",
+        "來源視圖是自述紀錄，不是provider guard audit或獨立稽核；全幅original請求實際縮顯2908×3488，局部不重採樣。",
+        "初錄、獨立稿及兩份inventory封存原件均保持原SHA；本結果另存，不修改v1。"
       ]
     },
     "page_metadata": [
@@ -210,9 +210,43 @@
       "f01-u037": null,
       "f01-u038": null
     },
-    "uncertainty_explicit_start": [],
+    "uncertainty_explicit_start": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
     "detailed_methods_public": false,
-    "image_to_text_full_reproduction_provided": false
+    "image_to_text_full_reproduction_provided": false,
+    "initial_version": {
+      "version": "0.1.0",
+      "doi": "10.5281/zenodo.23881962",
+      "book_sha256": "fc1b3598d9766e397ad29f6d68e246affdc4baf49d34b82db5c2ab2f93928796",
+      "concept_doi": "10.5281/zenodo.23881961",
+      "fixed_initial_preserved": true
+    },
+    "review_scope": {
+      "source_pages": [
+        "f01"
+      ],
+      "reader_stages_zh": "同一位獨立讀者分兩階段參與：先僅依來源影像進行source-only讀字並封存，兩稿固定後再看差異、非盲回圖裁定；不是第三個盲讀群體。全量比對與原圖質詢紀錄不等於工具已認證盲讀獨立性，也不是人類全文二校。",
+      "same_independent_reader_two_stages": true,
+      "third_blind_reading_group": false,
+      "native_guard_audit": "not-run",
+      "human_double_collation": "not-performed",
+      "expert_review": "not-performed",
+      "peer_review": "not-performed",
+      "accuracy_measured": false
+    },
+    "corrections_summary": {
+      "from_version": "0.1.0",
+      "initial_doi": "10.5281/zenodo.23881962",
+      "source_visible_punctuation_insertions": 4,
+      "located_unresolved_readings": 7
+    }
   },
   "position_convention": "f01是官方唯一recto，p01如有是現代物理面ID；疑讀採Unicode碼點0起半開[start,end)。unit順序即原order；unit.bbox=null，實測單位框如有則在methods.approved_unit_coordinates，座標參照3336×4000，並非逐字框。",
   "pages": [
@@ -228,7 +262,7 @@
       "layout_note": "先讀上方橫題（右至左），再記圖左上縱題及圖中橫匾（右至左）；下方原印大字共 30 欄，各欄由上至下、全區右至左。五組雙列小註分成獨立 unit，各註右列先、左列後，文中位置記於 notes。底本文字與原刻句讀保留；後加鉛筆、館印與尺規不混入 original-print。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed"
+        "original-print": "AI-independent-reading-and-image-adjudication"
       },
       "units": [
         {
@@ -275,7 +309,7 @@
           "id": "f01-u006",
           "layer": "original-print",
           "role": "body-column",
-          "text": "人、惟立醫院、乃救人之身、人身受病無論老幼",
+          "text": "人、惟立醫院、乃救人之身、人身受病、無論老幼",
           "side": "recto",
           "bbox": null
         },
@@ -283,7 +317,7 @@
           "id": "f01-u007",
           "layer": "original-print",
           "role": "body-column",
-          "text": "富貴貧賤皆所難免、有病在身、必多憂愁、俗云、",
+          "text": "富貴貧賤、皆所難免、有病在身、必多憂愁、俗云、",
           "side": "recto",
           "bbox": null
         },
@@ -291,7 +325,7 @@
           "id": "f01-u008",
           "layer": "original-print",
           "role": "body-column",
-          "text": "好人只怕病來磨一人有病、父母妻子、日夜躭",
+          "text": "好人只怕病來磨、一人有病、父母妻子、日夜躭",
           "side": "recto",
           "bbox": null
         },
@@ -307,7 +341,7 @@
           "id": "f01-u010",
           "layer": "original-print",
           "role": "body-column",
-          "text": "慰之事、醫病、乃體上帝愛人之心、上帝愛人無",
+          "text": "慰之事、醫病、乃體上帝愛人之心、上帝愛人、無",
           "side": "recto",
           "bbox": null
         },
@@ -536,7 +570,99 @@
           "bbox": null
         }
       ],
-      "uncertainties": []
+      "uncertainties": [
+        {
+          "id": "unc-0001",
+          "unit_id": "f01-u009",
+          "start": 8,
+          "end": 9,
+          "surface": "為",
+          "candidates": [
+            "爲"
+          ],
+          "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+          "cause": "unresolved-after-independent-reading",
+          "extent": "known"
+        },
+        {
+          "id": "unc-0002",
+          "unit_id": "f01-u009",
+          "start": 20,
+          "end": 21,
+          "surface": "為",
+          "candidates": [
+            "爲"
+          ],
+          "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+          "cause": "unresolved-after-independent-reading",
+          "extent": "known"
+        },
+        {
+          "id": "unc-0003",
+          "unit_id": "f01-u017",
+          "start": 15,
+          "end": 16,
+          "surface": "為",
+          "candidates": [
+            "爲"
+          ],
+          "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+          "cause": "unresolved-after-independent-reading",
+          "extent": "known"
+        },
+        {
+          "id": "unc-0004",
+          "unit_id": "f01-u021",
+          "start": 8,
+          "end": 9,
+          "surface": "為",
+          "candidates": [
+            "爲"
+          ],
+          "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+          "cause": "unresolved-after-independent-reading",
+          "extent": "known"
+        },
+        {
+          "id": "unc-0005",
+          "unit_id": "f01-u025",
+          "start": 6,
+          "end": 7,
+          "surface": "為",
+          "candidates": [
+            "爲"
+          ],
+          "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+          "cause": "unresolved-after-independent-reading",
+          "extent": "known"
+        },
+        {
+          "id": "unc-0006",
+          "unit_id": "f01-u034",
+          "start": 6,
+          "end": 7,
+          "surface": "為",
+          "candidates": [
+            "爲"
+          ],
+          "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+          "cause": "unresolved-after-independent-reading",
+          "extent": "known"
+        },
+        {
+          "id": "unc-0007",
+          "unit_id": "f01-u036",
+          "start": 11,
+          "end": 12,
+          "surface": "已",
+          "candidates": [
+            "己"
+          ],
+          "reason": "兩稿同讀已也不作正確證據；保留已暫讀及己候選，待更清晰原件或人工判形。 同頁另有己字可比較，但字體及墨面差異不足以在本處確定起筆高低。",
+          "cause": "unresolved-after-independent-reading",
+          "extent": "known"
+        }
+      ]
     }
   ]
 }

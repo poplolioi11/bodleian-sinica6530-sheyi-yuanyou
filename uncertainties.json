@@ -1,6 +1,105 @@
 {
   "dataset_id": "bodleian-sinica6530",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
-  "items": []
+  "items": [
+    {
+      "page_id": "f01",
+      "id": "unc-0001",
+      "unit_id": "f01-u009",
+      "start": 8,
+      "end": 9,
+      "surface": "為",
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+      "cause": "unresolved-after-independent-reading",
+      "extent": "known"
+    },
+    {
+      "page_id": "f01",
+      "id": "unc-0002",
+      "unit_id": "f01-u009",
+      "start": 20,
+      "end": 21,
+      "surface": "為",
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+      "cause": "unresolved-after-independent-reading",
+      "extent": "known"
+    },
+    {
+      "page_id": "f01",
+      "id": "unc-0003",
+      "unit_id": "f01-u017",
+      "start": 15,
+      "end": 16,
+      "surface": "為",
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+      "cause": "unresolved-after-independent-reading",
+      "extent": "known"
+    },
+    {
+      "page_id": "f01",
+      "id": "unc-0004",
+      "unit_id": "f01-u021",
+      "start": 8,
+      "end": 9,
+      "surface": "為",
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+      "cause": "unresolved-after-independent-reading",
+      "extent": "known"
+    },
+    {
+      "page_id": "f01",
+      "id": "unc-0005",
+      "unit_id": "f01-u025",
+      "start": 6,
+      "end": 7,
+      "surface": "為",
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+      "cause": "unresolved-after-independent-reading",
+      "extent": "known"
+    },
+    {
+      "page_id": "f01",
+      "id": "unc-0006",
+      "unit_id": "f01-u034",
+      "start": 6,
+      "end": 7,
+      "surface": "為",
+      "candidates": [
+        "爲"
+      ],
+      "reason": "保留封存初稿的為作暫讀並新增候選爲，不以任何一稿較早或較晚當成正確證據；重問相同像素不增加證據。 獨立稿讀爲構成明確反候選；沒有更高解析原件或可辨斷接筆證據，未強行統一。",
+      "cause": "unresolved-after-independent-reading",
+      "extent": "known"
+    },
+    {
+      "page_id": "f01",
+      "id": "unc-0007",
+      "unit_id": "f01-u036",
+      "start": 11,
+      "end": 12,
+      "surface": "已",
+      "candidates": [
+        "己"
+      ],
+      "reason": "兩稿同讀已也不作正確證據；保留已暫讀及己候選，待更清晰原件或人工判形。 同頁另有己字可比較，但字體及墨面差異不足以在本處確定起筆高低。",
+      "cause": "unresolved-after-independent-reading",
+      "extent": "known"
+    }
+  ]
 }
