@@ -1,10 +1,17 @@
-# 設醫原由 · Bodleian Sinica6530
+# 設醫原由（[1880年代?]；Bodleian Sinica 6530） / she yi yuan you: Transcription dataset
 
 ## 摘要 / Abstract
 
-本資料為牛津大學 Bodleian Libraries 藏 Sinica 6530《設醫原由》單張文獻的 AI 校讀修訂資料集，供醫學史、醫院史與傳教印刷研究的檢索、定位及後續校訂。範圍限官方唯一可用正面，共 38 單位、669 個 Unicode 碼點，含病房圖字、30 個正文欄及 5 組小註，公開 TXT、JSON、TEI XML 與訂正前後對照。v0.2.0 由來源單獨讀稿後轉非盲回圖裁定，補入 4 個標點，保留 7 項字形疑讀；尚未經人類全文雙校。刊地 [漢口?]、年代 [1880年代?] 仍疑定，未提供的背面不推定空白或不存在。
+《設醫原由》（she yi yuan you）是一張帶病房圖與經文小註的中文基督教傳單，館目疑定刊地 [漢口?]、年代 [1880年代?]，歷史個人作者與出版者未知。原書將設立醫院解釋為身體救濟與宣揚福音的共同事業，可供研究十九世紀傳教醫療的宗旨、醫療慈善、中文傳單及圖文版式。v0.2.0 依 Bodleian Sinica 6530 官方唯一可用正面轉錄文字，含病房圖字、30 個正文欄與 5 組小註，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
-This dataset provides a revised AI transcription of the single-sheet She yi yuan you, Bodleian Libraries Sinica 6530, for medical and hospital history and missionary-print research. It is limited to the only available official recto: 38 units and 669 Unicode code points, including ward-illustration text, 30 main-text columns and five groups of small notes. Public TXT, JSON, TEI XML and before-and-after corrections document version 0.2.0. Source-only reading was followed by non-blind source adjudication, restoring four punctuation marks while retaining seven glyph uncertainties. No human double collation has been performed. Catalogue place [Hankou?] and date [1880s?] remain tentative; the unavailable verso is not assumed blank or nonexistent.
+She yi yuan you (設醫原由) is a Chinese Christian sheet tract with a hospital-ward illustration and scriptural notes, tentatively catalogued at [Hankou?] in the [1880s?]; its individual author and publisher are unknown. It explains the establishment of hospitals as both bodily relief and the communication of the gospel, offering evidence for studying missionary medicine, medical charity, Chinese ephemera and the arrangement of text and image. Version 0.2.0 transcribes the single available official recto of Bodleian Sinica 6530, including illustrated text, 30 main columns and five small-note groups, providing TXT, JSON and TEI XML with references to the official source image. The text is a provisional AI transcription without human double collation or expert review.
+
+原件與書目入口 / Source witness and catalogue:
+
+- [館藏原件 / Source witness](https://digital.bodleian.ox.ac.uk/objects/665a097d-513a-4bf2-bdbf-af3bae5346fe/)
+- [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_5820)
+- [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/665a097d-513a-4bf2-bdbf-af3bae5346fe.json)
+- [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%206530.xml)
 
 **v0.2.0｜獨立AI讀字、全量比對與原圖裁定後修訂。**
 
