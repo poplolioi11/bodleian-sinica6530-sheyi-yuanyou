@@ -1,5 +1,11 @@
 # 設醫原由 · Bodleian Sinica6530
 
+## 摘要 / Abstract
+
+本資料為牛津大學 Bodleian Libraries 藏 Sinica 6530《設醫原由》單張文獻的 AI 校讀修訂資料集，供醫學史、醫院史與傳教印刷研究的檢索、定位及後續校訂。範圍限官方唯一可用正面，共 38 單位、669 個 Unicode 碼點，含病房圖字、30 個正文欄及 5 組小註，公開 TXT、JSON、TEI XML 與訂正前後對照。v0.2.0 由來源單獨讀稿後轉非盲回圖裁定，補入 4 個標點，保留 7 項字形疑讀；尚未經人類全文雙校。刊地 [漢口?]、年代 [1880年代?] 仍疑定，未提供的背面不推定空白或不存在。
+
+This dataset provides a revised AI transcription of the single-sheet She yi yuan you, Bodleian Libraries Sinica 6530, for medical and hospital history and missionary-print research. It is limited to the only available official recto: 38 units and 669 Unicode code points, including ward-illustration text, 30 main-text columns and five groups of small notes. Public TXT, JSON, TEI XML and before-and-after corrections document version 0.2.0. Source-only reading was followed by non-blind source adjudication, restoring four punctuation marks while retaining seven glyph uncertainties. No human double collation has been performed. Catalogue place [Hankou?] and date [1880s?] remain tentative; the unavailable verso is not assumed blank or nonexistent.
+
 **v0.2.0｜獨立AI讀字、全量比對與原圖裁定後修訂。**
 
 整理者：曲宸宇（Chu, Chen-Yu；GitHub：poplolioi11；ORCID：https://orcid.org/0009-0003-9738-6914）。歷史作者未知。
