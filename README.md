@@ -1,8 +1,8 @@
-# 設醫原由（[1880年代?]；Bodleian Sinica 6530） / she yi yuan you: Transcription dataset
+# 設醫原由([1880年代?];Bodleian Sinica 6530) / She yi yuan you [Reasons for establishing hospitals]: Transcription dataset
 
 ## 摘要 / Abstract
 
-《設醫原由》（she yi yuan you）是一張帶病房圖與經文小註的中文基督教傳單，館目疑定刊地 [漢口?]、年代 [1880年代?]，歷史個人作者與出版者未知。原書將設立醫院解釋為身體救濟與宣揚福音的共同事業，可供研究十九世紀傳教醫療的宗旨、醫療慈善、中文傳單及圖文版式。v0.2.0 依 Bodleian Sinica 6530 官方唯一可用正面轉錄文字，含病房圖字、30 個正文欄與 5 組小註，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
+《設醫原由》（She yi yuan you）是一張帶病房圖與經文小註的中文基督教傳單，館目疑定刊地 [漢口?]、年代 [1880年代?]，歷史個人作者與出版者未知。原書將設立醫院解釋為身體救濟與宣揚福音的共同事業，可供研究十九世紀傳教醫療的宗旨、醫療慈善、中文傳單及圖文版式。v0.2.0 依 Bodleian Sinica 6530 官方唯一可用正面轉錄文字，含病房圖字、30 個正文欄與 5 組小註，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
 She yi yuan you (設醫原由) is a Chinese Christian sheet tract with a hospital-ward illustration and scriptural notes, tentatively catalogued at [Hankou?] in the [1880s?]; its individual author and publisher are unknown. It explains the establishment of hospitals as both bodily relief and the communication of the gospel, offering evidence for studying missionary medicine, medical charity, Chinese ephemera and the arrangement of text and image. Version 0.2.0 transcribes the single available official recto of Bodleian Sinica 6530, including illustrated text, 30 main columns and five small-note groups, providing TXT, JSON and TEI XML with references to the official source image. The text is a provisional AI transcription without human double collation or expert review.
 
@@ -12,6 +12,18 @@ She yi yuan you (設醫原由) is a Chinese Christian sheet tract with a hospita
 - [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_5820)
 - [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/665a097d-513a-4bf2-bdbf-af3bae5346fe.json)
 - [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%206530.xml)
+
+### 題名與語言說明 / Title and language notes
+
+方括號英譯為編者意譯，非館目正式題名。Bracketed English titles are editorial discovery glosses, not official catalogue English titles.
+
+館目原羅馬字題名：「she yi yuan you」。展示：「She yi yuan you」；僅首字母大小寫依展示規則調整，保留館目拼法及長音符號。
+
+題名來源 / Title source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%206530.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%206530.xml)
+
+語言層次 / Language layers: 原文依有限公開非操作性文字證據標 lzh，屬編者語體分類，未經全書專家審定。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。 館目原語言代碼 chi 保留作來源資訊，不與本文語體分類混同。
+
+語言來源 / Language source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%206530.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%206530.xml)
 
 **v0.2.0｜獨立AI讀字、全量比對與原圖裁定後修訂。**
 
