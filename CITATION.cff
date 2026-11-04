@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: Please cite the fixed version and verify quotations against the Bodleian
   image.
 type: dataset
-title: 設醫原由（Bodleian Sinica6530，[1880年代?]）：獨立AI校讀修訂資料集
+title: "設醫原由([1880年代?];Bodleian Sinica 6530) / She yi yuan you [Reasons for establishing hospitals]: Transcription dataset"
 authors:
 - family-names: Chu
   given-names: Chen-Yu
